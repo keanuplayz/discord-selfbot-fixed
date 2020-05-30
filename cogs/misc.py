@@ -800,22 +800,27 @@ class Misc(commands.Cog):
         await ctx.send("We stan " + txt + "!!! Nobody else than " + txt + "!\nWe love " + txt + " :heart: :heart: :heart:\nIf you don't stan " + txt + " you're a disgrace to society!!!")
 
     @commands.command(pass_context=True)
-    async def rpc(self, ctx, *, txt):
+    async def rpc(self, ctx, *, txt: str = None):
         appid = "716223577220972584"
         assets = {"large_image": "716283776849936394", "large_text": "heuj"}
         
-        name = state = details = None
-        embed_values = txt.split('|')
-        for i in embed_values:
-            if i.strip().lower().startswith('name='):
-                name = i.strip()[5:].strip()
-            elif i.strip().lower().startswith('state='):
-                state = i.strip()[6:].strip()
-            elif i.strip().lower().startswith('details='):
-                details = i.strip()[8:].strip()
+        if txt:
+            name = state = details = None
+            embed_values = txt.split('|')
+            for i in embed_values:
+                if i.strip().lower().startswith('name='):
+                    name = i.strip()[5:].strip()
+                elif i.strip().lower().startswith('state='):
+                    state = i.strip()[6:].strip()
+                elif i.strip().lower().startswith('details='):
+                    details = i.strip()[8:].strip()
 
-        await self.bot.change_presence(activity=discord.Activity(application_id=appid, name=name, type=discord.ActivityType.playing, state=state, details=details, assets=assets))
-        await ctx.send("Status set.")
+            await self.bot.change_presence(activity=discord.Activity(application_id=appid, name=name, type=discord.ActivityType.playing, state=state, details=details, assets=assets))
+            await ctx.send("Status set.")
+
+        else:
+            await self.bot.change_presence(activity=None)
+            await ctx.send(self.bot.bot_prefix + 'Set playing status off')
     
     @commands.command(pass_context=True)
     async def sh(self, ctx, *, cmd):
