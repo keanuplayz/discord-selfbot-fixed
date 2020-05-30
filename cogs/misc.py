@@ -7,6 +7,7 @@ import discord
 import git
 import os
 import io
+from cogs.utils.cmd import cmdline
 from zalgo_text import zalgo
 from discord.ext import commands
 from cogs.utils.config import get_config_value
@@ -801,6 +802,7 @@ class Misc(commands.Cog):
     @commands.command(pass_context=True)
     async def rpc(self, ctx, *, txt):
         appid = "716223577220972584"
+        assets = {"large_image": "716283776849936394", "large_text": "heuj"}
         
         name = state = details = None
         embed_values = txt.split('|')
@@ -812,8 +814,12 @@ class Misc(commands.Cog):
             elif i.strip().lower().startswith('details='):
                 details = i.strip()[8:].strip()
 
-        await self.bot.change_presence(activity=discord.Activity(application_id=appid, name=name, type=discord.ActivityType.playing, state=state, details=details))
+        await self.bot.change_presence(activity=discord.Activity(application_id=appid, name=name, type=discord.ActivityType.playing, state=state, details=details, assets=assets))
         await ctx.send("Status set.")
+    
+    @commands.command(pass_context=True)
+    async def sh(self, ctx, *, cmd):
+        await ctx.send(f"```{cmdline(cmd).decode('utf-8')}```")
 
 def setup(bot):
     bot.add_cog(Misc(bot))
