@@ -791,5 +791,12 @@ class Misc(commands.Cog):
                                             opt['default_status']))
 
 
+    @commands.command(pass_context=True)
+    async def stan(self, ctx, *, txt):
+        """Tell your community who you stan."""
+        # Most disgusting way possible, just send one beautifully formatted message.
+        await ctx.message.delete()
+        await ctx.send("We stan " + txt + "!!! Nobody else than " + txt + "!\nWe love " + txt + " :heart: :heart: :heart:\nIf you don't stan " + txt + " you're a disgrace to society!!!")
+
 def setup(bot):
     bot.add_cog(Misc(bot))

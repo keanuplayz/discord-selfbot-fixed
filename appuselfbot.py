@@ -372,16 +372,6 @@ async def on_ready():
         with open('notifier.txt', 'w', encoding="utf8") as fp:
             fp.write(str(bot.subpro.pid))
 
-
-@bot.after_invoke
-async def after_any_command(ctx):
-    if not ctx.command_failed:
-        if str(ctx.command) not in bot.command_count:
-            bot.command_count[str(ctx.command)] = 1
-        else:
-            bot.command_count[str(ctx.command)] += 1
-
-
 @bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.errors.CommandNotFound):
