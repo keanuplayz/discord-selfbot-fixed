@@ -10,7 +10,7 @@ import io
 '''Module for an embeded python interpreter. More or less the same as the debugger module but with embeds.'''
 
 
-class EmbedShell():
+class EmbedShell(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.repl_sessions = {}
