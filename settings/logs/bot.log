@@ -1,0 +1,776 @@
+[30/05/2020 12:49] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 12:49] INFO client login 441: logging in using static token
+[30/05/2020 12:49] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 12:49] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 12:49] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-j5zd",{"micros":497332,"calls":["discord-sessions-prd-1-30",{"micros":446286,"calls":["start_session",{"micros":101811,"calls":["api-prd-main-us-east1-jr55",{"micros":83709,"calls":["get_user",{"micros":6047},"add_authorized_ip",{"micros":3097},"get_guilds",{"micros":2445},"private_channels",{"micros":31227},"read_states",{"micros":10224},"coros_wait",{"micros":14802},"aliases",{"micros":3192},"experiments",{"micros":1702}]}]},"guilds_connect",{"micros":106076,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 92cdedd745ea652392ba5276888efc36).
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 12:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 12:49] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:49] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:49] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:51] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:51] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:51] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:51] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:52] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 556384432442048533. Discarding.
+[30/05/2020 12:54] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:56] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:56] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:56] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:57] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:57] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 12:58] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 556384432442048533. Discarding.
+[30/05/2020 12:59] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:01] INFO client run 636: Cleaning up tasks.
+[30/05/2020 13:01] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 13:28] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 13:28] INFO client login 441: logging in using static token
+[30/05/2020 13:28] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 13:28] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 13:28] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-rq7q",{"micros":445119,"calls":["discord-sessions-prd-1-12",{"micros":404753,"calls":["start_session",{"micros":183804,"calls":["api-prd-main-us-east1-5hmz",{"micros":163475,"calls":["get_user",{"micros":10549},"add_authorized_ip",{"micros":13120},"get_guilds",{"micros":3852},"private_channels",{"micros":37136},"read_states",{"micros":22685},"coros_wait",{"micros":32483},"aliases",{"micros":3675},"experiments",{"micros":1378}]}]},"guilds_connect",{"micros":3118,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 475a09bf987fc795345c2b745f782ab8).
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 13:28] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 13:31] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:32] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:32] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:33] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:33] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:33] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 545180715768348682. Discarding.
+[30/05/2020 13:37] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:37] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:38] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 276267016774615040. Discarding.
+[30/05/2020 13:39] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:39] INFO client run 636: Cleaning up tasks.
+[30/05/2020 13:39] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 13:39] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 13:39] INFO client login 441: logging in using static token
+[30/05/2020 13:39] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 13:39] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 13:39] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-f2bb",{"micros":812876,"calls":["discord-sessions-prd-1-79",{"micros":758764,"calls":["start_session",{"micros":134327,"calls":["api-prd-main-us-east1-qf5z",{"micros":118059,"calls":["get_user",{"micros":11329},"add_authorized_ip",{"micros":7060},"get_guilds",{"micros":29830},"private_channels",{"micros":26437},"read_states",{"micros":11129},"coros_wait",{"micros":16196},"aliases",{"micros":2848},"experiments",{"micros":1737}]}]},"guilds_connect",{"micros":357906,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 9dbcc045a6df2677aea89eea877b2f9f).
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 13:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 13:41] INFO client run 636: Cleaning up tasks.
+[30/05/2020 13:41] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 13:41] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 13:41] INFO client login 441: logging in using static token
+[30/05/2020 13:41] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 13:41] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 13:41] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-5236",{"micros":464346,"calls":["discord-sessions-prd-1-27",{"micros":415788,"calls":["start_session",{"micros":72993,"calls":["api-prd-main-us-east1-5hmz",{"micros":56235,"calls":["get_user",{"micros":4388},"add_authorized_ip",{"micros":2919},"get_guilds",{"micros":2065},"private_channels",{"micros":19590},"read_states",{"micros":5583},"coros_wait",{"micros":9504},"aliases",{"micros":670},"experiments",{"micros":1885}]}]},"guilds_connect",{"micros":3813,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: fd3dc8b8f3ea1b52298475bedcaab749).
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 13:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 13:41] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:41] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:43] INFO client run 636: Cleaning up tasks.
+[30/05/2020 13:43] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 13:43] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 13:43] INFO client login 441: logging in using static token
+[30/05/2020 13:43] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 13:43] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 13:43] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-cjk5",{"micros":425943,"calls":["discord-sessions-prd-1-9",{"micros":375747,"calls":["start_session",{"micros":95874,"calls":["api-prd-main-us-east1-hwzm",{"micros":76426,"calls":["get_user",{"micros":4192},"add_authorized_ip",{"micros":2924},"get_guilds",{"micros":1869},"private_channels",{"micros":31873},"read_states",{"micros":5827},"coros_wait",{"micros":12910},"aliases",{"micros":1122},"experiments",{"micros":1669}]}]},"guilds_connect",{"micros":77862,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 72160888da5df89d408f741727817224).
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 13:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 13:43] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:43] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:43] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:43] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:43] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:44] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:47] INFO client run 636: Cleaning up tasks.
+[30/05/2020 13:47] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 13:47] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 13:47] INFO client login 441: logging in using static token
+[30/05/2020 13:47] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 13:47] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 13:47] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-cg56",{"micros":501520,"calls":["discord-sessions-prd-1-42",{"micros":457869,"calls":["start_session",{"micros":233783,"calls":["api-prd-main-us-east1-jbwf",{"micros":217683,"calls":["get_user",{"micros":21655},"add_authorized_ip",{"micros":15047},"get_guilds",{"micros":12249},"private_channels",{"micros":44109},"read_states",{"micros":12144},"coros_wait",{"micros":42791},"aliases",{"micros":11505},"experiments",{"micros":1876}]}]},"guilds_connect",{"micros":3343,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 2c0f259ed19b07c53236d5b79ee0cefd).
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 13:47] INFO client run 636: Cleaning up tasks.
+[30/05/2020 13:47] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 13:47] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 13:47] INFO client login 441: logging in using static token
+[30/05/2020 13:47] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 13:47] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 13:47] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-sf6g",{"micros":544050,"calls":["discord-sessions-prd-1-74",{"micros":500159,"calls":["start_session",{"micros":212647,"calls":["api-prd-main-us-east1-gz5d",{"micros":188164,"calls":["get_user",{"micros":28131},"add_authorized_ip",{"micros":37166},"get_guilds",{"micros":9355},"private_channels",{"micros":30230},"read_states",{"micros":7185},"coros_wait",{"micros":14722},"aliases",{"micros":1720},"experiments",{"micros":2217}]}]},"guilds_connect",{"micros":3210,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: 2357634ddc8639181e5101bc33dc6136).
+[30/05/2020 13:47] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 13:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 13:47] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:48] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:48] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:49] INFO client run 636: Cleaning up tasks.
+[30/05/2020 13:49] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 13:49] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 13:49] INFO client login 441: logging in using static token
+[30/05/2020 13:49] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 13:49] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 13:49] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-sf6g",{"micros":436773,"calls":["discord-sessions-prd-1-71",{"micros":391744,"calls":["start_session",{"micros":78665,"calls":["api-prd-main-us-east1-wr61",{"micros":60055,"calls":["get_user",{"micros":4301},"add_authorized_ip",{"micros":3089},"get_guilds",{"micros":1652},"private_channels",{"micros":20761},"read_states",{"micros":4364},"coros_wait",{"micros":10430},"aliases",{"micros":2099},"experiments",{"micros":2023}]}]},"guilds_connect",{"micros":74493,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 368671ce11099b86b4545ceb6a0e6b16).
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 13:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 13:49] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:50] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:51] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:53] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:53] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:54] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:54] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:54] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:55] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:55] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:55] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:56] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:56] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 389365101989330945. Discarding.
+[30/05/2020 13:56] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:56] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:57] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:57] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:58] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:58] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:58] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:58] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 13:59] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:01] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:03] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:03] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:05] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:05] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:06] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:06] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:07] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:07] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 389365101989330945. Discarding.
+[30/05/2020 14:07] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 389365101989330945. Discarding.
+[30/05/2020 14:08] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:08] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:08] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:08] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:09] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:10] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:13] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:14] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 712853372289548369. Discarding.
+[30/05/2020 14:14] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 712853372289548369. Discarding.
+[30/05/2020 14:15] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:16] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:16] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:17] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:17] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:18] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:18] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:19] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:19] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:20] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:20] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:20] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:20] INFO client login 441: logging in using static token
+[30/05/2020 14:20] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:20] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:20] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-9pvt",{"micros":343336,"calls":["discord-sessions-prd-1-12",{"micros":296779,"calls":["start_session",{"micros":85176,"calls":["api-prd-main-us-east1-rc8v",{"micros":68436,"calls":["get_user",{"micros":4401},"add_authorized_ip",{"micros":2722},"get_guilds",{"micros":10251},"private_channels",{"micros":21518},"read_states",{"micros":7655},"coros_wait",{"micros":8387},"aliases",{"micros":1215},"experiments",{"micros":1709}]}]},"guilds_connect",{"micros":6995,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: b0c72fa5a3853d197aa5040a9fed2ec1).
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:20] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:21] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:21] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:21] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:21] INFO client login 441: logging in using static token
+[30/05/2020 14:21] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:21] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:21] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-ns4r",{"micros":442167,"calls":["discord-sessions-prd-1-6",{"micros":387727,"calls":["start_session",{"micros":110265,"calls":["api-prd-main-us-east1-1cd8",{"micros":91567,"calls":["get_user",{"micros":5913},"add_authorized_ip",{"micros":4605},"get_guilds",{"micros":4324},"private_channels",{"micros":29836},"read_states",{"micros":13993},"coros_wait",{"micros":15350},"aliases",{"micros":1512},"experiments",{"micros":1859}]}]},"guilds_connect",{"micros":3696,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: adf46edd4f5f8f8ac387cab9a9c9e252).
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:21] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:21] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:21] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:22] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:22] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:22] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:22] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:23] INFO client login 441: logging in using static token
+[30/05/2020 14:23] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:23] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:23] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-fc46",{"micros":533322,"calls":["discord-sessions-prd-1-28",{"micros":480826,"calls":["start_session",{"micros":86838,"calls":["api-prd-main-us-east1-066k",{"micros":69166,"calls":["get_user",{"micros":2810},"add_authorized_ip",{"micros":2784},"get_guilds",{"micros":1998},"private_channels",{"micros":23889},"read_states",{"micros":9640},"coros_wait",{"micros":14002},"aliases",{"micros":1384},"experiments",{"micros":2006}]}]},"guilds_connect",{"micros":168246,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 43b710fe423ca74097c5bf1103c76b4e).
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:23] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:23] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:24] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:24] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:25] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:26] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:26] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 626940058737442816. Discarding.
+[30/05/2020 14:26] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:26] WARNING state parse_guild_member_update 703: GUILD_MEMBER_UPDATE referencing an unknown member ID: 626940058737442816. Discarding.
+[30/05/2020 14:27] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:28] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:28] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:28] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:28] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:29] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:29] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:30] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:31] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:31] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:31] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:32] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:32] INFO client login 441: logging in using static token
+[30/05/2020 14:32] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:32] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:32] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-j5zd",{"micros":579342,"calls":["discord-sessions-prd-1-55",{"micros":527518,"calls":["start_session",{"micros":141993,"calls":["api-prd-main-us-east1-j0w6",{"micros":122798,"calls":["get_user",{"micros":6530},"add_authorized_ip",{"micros":2831},"get_guilds",{"micros":2586},"private_channels",{"micros":53189},"read_states",{"micros":7897},"coros_wait",{"micros":18540},"aliases",{"micros":5343},"experiments",{"micros":1684}]}]},"guilds_connect",{"micros":157576,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: d2c7bf1c79bbd364a59a22a92d21b33f).
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:32] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:32] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:32] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:32] INFO client login 441: logging in using static token
+[30/05/2020 14:32] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:32] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:32] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-zqnl",{"micros":424841,"calls":["discord-sessions-prd-1-58",{"micros":363117,"calls":["start_session",{"micros":141240,"calls":["api-prd-main-us-east1-bzn5",{"micros":122879,"calls":["get_user",{"micros":9449},"add_authorized_ip",{"micros":7777},"get_guilds",{"micros":3162},"private_channels",{"micros":35238},"read_states",{"micros":12233},"coros_wait",{"micros":12655},"aliases",{"micros":3026},"experiments",{"micros":1787}]}]},"guilds_connect",{"micros":15256,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: e05b86a2d51c7131a4a27ec7dd316137).
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:32] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:33] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:33] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:33] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:33] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:34] INFO client login 441: logging in using static token
+[30/05/2020 14:34] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:34] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:34] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-jq8l",{"micros":493580,"calls":["discord-sessions-prd-1-58",{"micros":441457,"calls":["start_session",{"micros":103019,"calls":["api-prd-main-us-east1-2w9d",{"micros":87285,"calls":["get_user",{"micros":5360},"add_authorized_ip",{"micros":5682},"get_guilds",{"micros":6822},"private_channels",{"micros":35584},"read_states",{"micros":5586},"coros_wait",{"micros":10449},"aliases",{"micros":4022},"experiments",{"micros":1651}]}]},"guilds_connect",{"micros":47128,"calls":[]},"presence_connect",{"micros":0,"calls":[]}]}]}] (Session ID: d589b421a991bae969f6635abe4ffec1).
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:34] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:35] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:35] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:35] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:35] INFO client login 441: logging in using static token
+[30/05/2020 14:35] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:35] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:35] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-b3fc",{"micros":417092,"calls":["discord-sessions-prd-1-25",{"micros":370395,"calls":["start_session",{"micros":131936,"calls":["api-prd-main-us-east1-n9lq",{"micros":115056,"calls":["get_user",{"micros":4029},"add_authorized_ip",{"micros":8189},"get_guilds",{"micros":2975},"private_channels",{"micros":42984},"read_states",{"micros":4945},"coros_wait",{"micros":17484},"aliases",{"micros":9741},"experiments",{"micros":1743}]}]},"guilds_connect",{"micros":3693,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 26f3e7bb8a4cf6c7ba1573f5ddc6a5b3).
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:35] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:35] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:36] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:38] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:38] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:39] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:39] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:39] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:39] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:39] INFO client login 441: logging in using static token
+[30/05/2020 14:39] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:39] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:39] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-3j8j",{"micros":1047472,"calls":["discord-sessions-prd-1-38",{"micros":995531,"calls":["start_session",{"micros":498977,"calls":["api-prd-main-us-east1-hwzm",{"micros":479869,"calls":["get_user",{"micros":6590},"add_authorized_ip",{"micros":4743},"get_guilds",{"micros":11858},"private_channels",{"micros":23159},"read_states",{"micros":402449},"coros_wait",{"micros":9612},"aliases",{"micros":1156},"experiments",{"micros":1921}]}]},"guilds_connect",{"micros":261398,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 2f87afd61b19c31f62bf229ba31bdda2).
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:39] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:40] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:40] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:40] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:40] INFO client _cancel_tasks 78: All tasks finished cancelling.
+[30/05/2020 14:40] INFO client _cleanup_loop 96: Closing the event loop.
+[30/05/2020 14:41] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:41] INFO client login 441: logging in using static token
+[30/05/2020 14:41] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:41] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:41] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-c802",{"micros":501985,"calls":["discord-sessions-prd-1-38",{"micros":452606,"calls":["start_session",{"micros":153094,"calls":["api-prd-main-us-east1-69dq",{"micros":128671,"calls":["get_user",{"micros":9396},"add_authorized_ip",{"micros":8237},"get_guilds",{"micros":4362},"private_channels",{"micros":26495},"read_states",{"micros":9211},"coros_wait",{"micros":29303},"aliases",{"micros":11969},"experiments",{"micros":1723}]}]},"guilds_connect",{"micros":65383,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 76649e38144948588a62d61a796a1328).
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:41] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:41] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:43] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:43] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:43] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:43] INFO client login 441: logging in using static token
+[30/05/2020 14:43] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:43] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:43] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-f7mt",{"micros":553272,"calls":["discord-sessions-prd-1-59",{"micros":504878,"calls":["start_session",{"micros":219654,"calls":["api-prd-main-us-east1-l3j8",{"micros":201653,"calls":["get_user",{"micros":28059},"add_authorized_ip",{"micros":14514},"get_guilds",{"micros":22143},"private_channels",{"micros":35540},"read_states",{"micros":27503},"coros_wait",{"micros":30361},"aliases",{"micros":1782},"experiments",{"micros":1788}]}]},"guilds_connect",{"micros":19792,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 0c57174bb96b5879ed24eba6b709edb0).
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:43] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:43] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:44] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:44] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:44] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:44] INFO client login 441: logging in using static token
+[30/05/2020 14:44] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:44] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:44] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-jb2p",{"micros":450078,"calls":["discord-sessions-prd-1-4",{"micros":396071,"calls":["start_session",{"micros":161887,"calls":["api-prd-main-us-east1-dbpn",{"micros":144154,"calls":["get_user",{"micros":9458},"add_authorized_ip",{"micros":7225},"get_guilds",{"micros":3354},"private_channels",{"micros":45635},"read_states",{"micros":13065},"coros_wait",{"micros":26223},"aliases",{"micros":13258},"experiments",{"micros":1527}]}]},"guilds_connect",{"micros":4665,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: d560b97f82f81a5b2caf352ca838c25e).
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:44] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:45] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:45] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:45] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:45] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:45] INFO client login 441: logging in using static token
+[30/05/2020 14:45] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:45] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:45] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-8j25",{"micros":1355204,"calls":["discord-sessions-prd-1-11",{"micros":1301452,"calls":["start_session",{"micros":73741,"calls":["api-prd-main-us-east1-tj0j",{"micros":53245,"calls":["get_user",{"micros":4225},"add_authorized_ip",{"micros":3062},"get_guilds",{"micros":1638},"private_channels",{"micros":19299},"read_states",{"micros":3576},"coros_wait",{"micros":7859},"aliases",{"micros":1223},"experiments",{"micros":1712}]}]},"guilds_connect",{"micros":1007257,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 1f60eb1df44e9bba720afec24047b945).
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:45] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:47] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:47] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:47] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:47] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:47] INFO client login 441: logging in using static token
+[30/05/2020 14:47] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:47] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:47] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-q35c",{"micros":411627,"calls":["discord-sessions-prd-1-28",{"micros":344192,"calls":["start_session",{"micros":120961,"calls":["api-prd-main-us-east1-57lw",{"micros":104143,"calls":["get_user",{"micros":11691},"add_authorized_ip",{"micros":4668},"get_guilds",{"micros":1612},"private_channels",{"micros":36401},"read_states",{"micros":8119},"coros_wait",{"micros":14064},"aliases",{"micros":3888},"experiments",{"micros":1702}]}]},"guilds_connect",{"micros":65314,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 5612168f1a7e92b25bf31b0d06f2eb28).
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:47] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:48] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:48] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:48] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:48] INFO client login 441: logging in using static token
+[30/05/2020 14:48] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:48] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:48] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-xxjl",{"micros":649163,"calls":["discord-sessions-prd-1-28",{"micros":594461,"calls":["start_session",{"micros":137619,"calls":["api-prd-main-us-east1-gpjx",{"micros":118504,"calls":["get_user",{"micros":10648},"add_authorized_ip",{"micros":11521},"get_guilds",{"micros":10304},"private_channels",{"micros":31048},"read_states",{"micros":12662},"coros_wait",{"micros":18251},"aliases",{"micros":2727},"experiments",{"micros":1895}]}]},"guilds_connect",{"micros":213726,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: a5e264949afaf7fca26073af07b27587).
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:48] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:49] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:49] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:49] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:49] INFO client login 441: logging in using static token
+[30/05/2020 14:49] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:49] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:49] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-8twb",{"micros":541917,"calls":["discord-sessions-prd-1-58",{"micros":483434,"calls":["start_session",{"micros":134493,"calls":["api-prd-main-us-east1-qgj9",{"micros":111793,"calls":["get_user",{"micros":9877},"add_authorized_ip",{"micros":10392},"get_guilds",{"micros":4569},"private_channels",{"micros":41273},"read_states",{"micros":5751},"coros_wait",{"micros":17264},"aliases",{"micros":2504},"experiments",{"micros":2161}]}]},"guilds_connect",{"micros":146597,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 2fceea805816718e8cacf4fdc14349de).
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:49] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 14:49] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:50] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:52] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:53] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:55] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 14:56] INFO client run 636: Cleaning up tasks.
+[30/05/2020 14:56] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
+[30/05/2020 14:58] WARNING client __init__ 231: PyNaCl is not installed, voice will NOT be supported
+[30/05/2020 14:58] INFO client login 441: logging in using static token
+[30/05/2020 14:58] INFO gateway from_client 241: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+[30/05/2020 14:58] INFO gateway identify 321: Shard ID None has sent the IDENTIFY payload.
+[30/05/2020 14:58] INFO gateway received_message 413: Shard ID None has connected to Gateway: ["gateway-prd-main-jmgl",{"micros":440155,"calls":["discord-sessions-prd-1-41",{"micros":387958,"calls":["start_session",{"micros":121805,"calls":["api-prd-main-us-east1-9dvq",{"micros":101790,"calls":["get_user",{"micros":5214},"add_authorized_ip",{"micros":4506},"get_guilds",{"micros":3173},"private_channels",{"micros":37543},"read_states",{"micros":9983},"coros_wait",{"micros":14289},"aliases",{"micros":9698},"experiments",{"micros":1920}]}]},"guilds_connect",{"micros":57015,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 595176c34a4c85717fe971003b74b6f4).
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 13 members in guild ID 564751731066667008.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 32 members in guild ID 679391694197620748.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 25 members in guild ID 637512823676600330.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 602104646873513997.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606462793008283687.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 714165333522645033.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 22 members in guild ID 644875385452101633.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 606477084423880734.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 45 members in guild ID 623116792063328261.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 662215201743175690.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 685534503741292644.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 14 members in guild ID 633452856942526484.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 12 members in guild ID 604369734565101608.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 15 members in guild ID 668515888118628363.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 10 members in guild ID 599941989882134528.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 5 members in guild ID 641350391409278988.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 2 members in guild ID 693904038156304414.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 6 members in guild ID 646402865195122708.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697108880014180484.
+[30/05/2020 14:59] INFO state parse_guild_members_chunk 880: Processed a chunk for 11 members in guild ID 697834161255219230.
+[30/05/2020 15:00] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 15:00] WARNING state parse_presence_update 533: PRESENCE_UPDATE referencing an unknown guild ID: None. Discarding.
+[30/05/2020 15:01] INFO client run 636: Cleaning up tasks.
+[30/05/2020 15:01] INFO client _cancel_tasks 73: Cleaning up after 9 tasks.
