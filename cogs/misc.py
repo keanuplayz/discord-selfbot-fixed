@@ -25,18 +25,18 @@ class Misc(commands.Cog):
     async def about(self, ctx, txt: str = None):
         """Links to the bot's github page."""
         if embed_perms(ctx.message) and txt != 'short':
-            em = discord.Embed(color=0xad2929, title='\ud83e\udd16 Appu\'s Discord Selfbot',
+            em = discord.Embed(color=0xad2929, title='\ud83e\udd16 Keanu\'s Discord Selfbot',
                                description='**Features:**\n- Custom commands/reactions\n- Save last x images in a channel to your computer\n- Keyword notifier\n'
                                            '- Set/cycle your game status and your avatar\n- Google web and image search\n- MyAnimeList search\n- Spoiler tagging\n'
                                            '- Server info commands\n- Quoting, calculator, creating polls, and much more')
             em.add_field(name='\ud83d\udd17 Link to download',
-                         value='[Github link](https://github.com/appu1232/Discord-Selfbot/tree/master)')
+                         value='[Github link](https://github.com/keanuplayz/discord-selfbot-fixed/tree/master)')
             em.add_field(name='\ud83c\udfa5Quick examples:', value='[Simple commands](http://i.imgur.com/3H9zpop.gif)')
             if txt == 'link': em.add_field(name='👋 Discord Server', value='Join the official Discord server [here](https://discord.gg/FGnM5DM)!')
-            em.set_footer(text='Made by appu1232#2569', icon_url='https://i.imgur.com/RHagTDg.png')
+            em.set_footer(text='Made by Keanu#2871', icon_url='https://i.imgur.com/RHagTDg.png')
             await ctx.send(content=None, embed=em)
         else:
-            await ctx.send('https://github.com/appu1232/Selfbot-for-Discord')
+            await ctx.send('https://github.com/keanuplayz/discord-selfbot-fixed')
         await ctx.message.delete()
 
     @commands.group(aliases=['status'], pass_context=True)

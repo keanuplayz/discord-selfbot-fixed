@@ -105,7 +105,7 @@ class Debugger(commands.Cog):
         """Shows useful informations to people that try to help you."""
         try:
             if embed_perms(ctx.message):
-                em = discord.Embed(color=0xad2929, title='\ud83e\udd16 Appu\'s Discord Selfbot Debug Infos')
+                em = discord.Embed(color=0xad2929, title='\ud83e\udd16 Keanu\'s Discord Selfbot Debug Info')
                 system = ''
                 if sys.platform == 'linux':
                     system = subprocess.run(['uname', '-a'], stdout=subprocess.PIPE).stdout.decode('utf-8').strip()

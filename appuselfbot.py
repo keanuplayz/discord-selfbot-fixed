@@ -197,7 +197,7 @@ for f in samples:
                 json.dump(fields, g, sort_keys=True, indent=4)
 
 
-bot = commands.Bot(command_prefix=get_config_value('config', 'cmd_prefix'), description='''Selfbot by appu1232''', self_bot=True)
+bot = commands.Bot(command_prefix=get_config_value('config', 'cmd_prefix'), description='''Selfbot by Keanu''', self_bot=True)
 
 if __name__ == "__main__":
     _runs_in_loop = False
