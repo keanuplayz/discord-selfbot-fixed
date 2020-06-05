@@ -7,6 +7,7 @@ import discord
 import git
 import os
 import io
+import base64
 from cogs.utils.cmd import cmdline
 from zalgo_text import zalgo
 from discord.ext import commands
@@ -825,6 +826,42 @@ class Misc(commands.Cog):
     @commands.command(pass_context=True)
     async def sh(self, ctx, *, cmd):
         await ctx.send(f"```{cmdline(cmd).decode('utf-8')}```")
+
+    @commands.command(pass_context=True)
+    async def base64(self, ctx, action, *, string):
+        if action == "encode":
+            await ctx.message.delete()
+            message_bytes = string.encode('ascii')
+            base64_bytes = base64.b64encode(message_bytes)
+            base64_message = base64_bytes.decode('ascii')
+            await ctx.send(base64_message)
+        if action == "decode":
+            await ctx.message.delete()
+            base64_message = string
+            base64_bytes = base64_message.encode('ascii')
+            message_bytes = base64.b64decode(base64_bytes)
+            decoded_message = message_bytes.decode('ascii')
+            await ctx.send(decoded_message)
+        else:
+            await ctx.message.delete()
+            await ctx.send("That's not a valid action! Choose from `encode` or `decode`.")
+
+    @commands.command(pass_context=True)
+    async def binary(self, ctx, action, *, string):
+        if action == "encode":
+            def encode_bin(string):
+                data = bytes(string, 'utf-8')
+                bin = ['{:08b}'.format(x) for x in data]
+                return " ".join(bin)
+            await ctx.send(encode_bin(string))
+        elif action == "decode":
+            def decode_bin(string):
+                chars = [int(c, 2) for c in string.split()]
+                return bytes(chars).decode('utf-8')
+            await ctx.send(decode_bin(string))
+        else:
+            await ctx.message.delete()
+            await ctx.send("That's not a valid action! Choose from `encode` or `decode`.")
 
 def setup(bot):
     bot.add_cog(Misc(bot))
