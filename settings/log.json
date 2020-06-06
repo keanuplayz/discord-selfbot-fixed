@@ -7,13 +7,16 @@
     "context_len": "4",
     "keyusers": {},
     "keyword_logging": "on",
-    "keywords": [],
+    "keywords": [
+        "keanu",
+        "<@!465662909645848577>"
+    ],
     "log_location": "714756970501898292 644875385452101633",
     "log_size": "25",
     "notifier_bot_token": "",
     "servers": [],
     "user_location": "",
     "user_logging": "on",
-    "webhook_url": "",
+    "webhook_url": "https://canary.discordapp.com/api/webhooks/715123480013570060/WJrR1-nNeQG_3uE-jEPwXQU8T32SphJRrVvDmFJJPn5HTQ-HLHk8itgarc8GJOCq89TX",
     "webhook_url2": ""
 }
