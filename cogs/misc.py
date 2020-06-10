@@ -863,5 +863,23 @@ class Misc(commands.Cog):
             await ctx.message.delete()
             await ctx.send("That's not a valid action! Choose from `encode` or `decode`.")
 
+    @commands.command(pass_context=True)
+    async def atinm(self, ctx, folder="default"):
+        if folder == "yes":
+            image = random.choice([x for x in os.listdir("./media/yes") if os.path.isfile(os.path.join("media", "yes", x))])
+            print(image)
+            imagepath = os.path.abspath(os.path.join("media", "yes", image))
+            await ctx.send(file=discord.File(imagepath, filename=image))
+        elif folder == "damn":
+            image = random.choice([x for x in os.listdir("./media/yes/damn") if os.path.isfile(os.path.join("./media/yes/damn", x))])
+            print(image)
+            imagepath = os.path.abspath(os.path.join("media", "yes", "damn", image))
+            await ctx.send(file=discord.File(imagepath, filename=image))
+        elif folder == "default":
+            image = random.choice([x for x in os.listdir("./media") if os.path.isfile(os.path.join("./media", x))])
+            print(image)
+            imagepath = os.path.abspath(os.path.join("media", image))
+            await ctx.send(file=discord.File(imagepath, filename=image))
+
 def setup(bot):
     bot.add_cog(Misc(bot))

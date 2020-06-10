@@ -140,3 +140,4 @@ cython_debug/
 settings/
 .vscode/
 cogs/utils/temp.txt
+media/
