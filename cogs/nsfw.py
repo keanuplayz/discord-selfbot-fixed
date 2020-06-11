@@ -33,16 +33,18 @@ class NSFW(commands.Cog):
 
     @commands.command(pass_context=True)
     async def r34(self, ctx, term):
-        base_url = "https://r34-json-api.herokuapp.com/posts?limit=1"
+        base_url = "https://r34-json-api.herokuapp.com/posts?limit=100"
         complete_url = base_url + "&tags=" + str(term)
         try:
             response = requests.get(complete_url)
         except BaseException:
             await ctx.send("Error")
         res = response.json()
+        number = random.randint(0, 100)
+        image = res[number]["file_url"]
 
         r34embed = discord.Embed(title="Result for " + term)
-        r34embed.add_field(name=res.height,value=res.height)
+        r34embed.set_image(url=image)
         await ctx.send(embed=r34embed)
 
 
