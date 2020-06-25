@@ -1,10 +1,8 @@
-from subprocess import PIPE, Popen
-
-
-def cmdline(command):
-    process = Popen(
-        args=command,
-        stdout=PIPE,
-        shell=True
-    )
-    return process.communicate()[0]
+import subprocess
+def cmdline(cmd):
+  res = subprocess.run(
+    args=cmd,
+    stdout=subprocess.PIPE,
+    stderr=subprocess.STDOUT,
+    shell=True)
+  return res.stdout
