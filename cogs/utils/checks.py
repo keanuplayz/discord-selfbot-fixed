@@ -118,7 +118,6 @@ def update_bot(message):
         em.set_footer(text='Full project: https://github.com/appu1232/Discord-Selfbot')
         return em
 
-
 def cmd_prefix_len():
     config = load_config()
     return len(config['cmd_prefix'])

@@ -1,5 +1,5 @@
 {
-    "watch https://www.youtube.com/watch?v=aaqGyVmR5lM" : [
+    "Add Soundcloud support for `.play`" : [
         "none",
         0,
         0,
@@ -7,12 +7,68 @@
         0,
         "none"
     ],
-    "write un-blor tool in js" : [
-        "done",
+    "Document TravBot commands" : [
+        "none",
         0,
         0,
         true,
         0,
-        86399.9999859333
+        "none"
+    ],
+    "Get Mons" : [
+        1603620946.3129346,
+        ".eco daily",
+        "669464416420364288",
+        false,
+        "on",
+        86459.99997591972
+    ],
+    "Rewrite this: <https://linuxhint.com/install-arch-linux-virtualbox/>" : [
+        "none",
+        0,
+        0,
+        true,
+        0,
+        "none"
+    ],
+    "TravBot playlist support (how even)" : [
+        "none",
+        0,
+        0,
+        true,
+        0,
+        "none"
+    ],
+    "Use `splice` to remove items from `data.queue`" : [
+        "none",
+        0,
+        0,
+        true,
+        0,
+        "none"
+    ],
+    "eee" : [
+        "done",
+        0,
+        0,
+        "on",
+        0,
+        299.9999933242798
+    ],
+    "https://eldorado-rec.com/" : [
+        "done",
+        0,
+        0,
+        "on",
+        0,
+        21599.99998641014
+    ],
+    "million Restriction chaos" : [
+        "none",
+        0,
+        0,
+        true,
+        0,
+        "none"
     ]
 }

@@ -10,3 +10,4 @@ pyfiglet==0.7.5
 tokage==1.0.0
 pytz==2017.2
 PyGithub==1.34
+zalgo_text

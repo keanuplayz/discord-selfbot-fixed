@@ -802,9 +802,12 @@ class Misc(commands.Cog):
 
     @commands.command(pass_context=True)
     async def rpc(self, ctx, *, txt: str = None):
+        """Set custom rich presence.
+        [p]rpc name=1|details=2|state=3
+        """
         appid = "716223577220972584"
         assets = {"large_image": "716283776849936394", "large_text": "heuj"}
-        
+
         if txt:
             name = state = details = None
             embed_values = txt.split('|')
