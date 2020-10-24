@@ -578,7 +578,7 @@ class Utility(commands.Cog):
         if not os.path.isdir('message_dump'):
             os.mkdir('message_dump')
         with open("message_dump/" + filename.rsplit('.', 1)[0] + ".txt", "w+", encoding="utf-8") as f:
-            if reverse == "yes":
+            if reverse == "no":
                 if details == "yes":
                     async for message in ctx.message.channel.history(limit=int(limit)):
                         f.write("<{} at {} on {}> {}\n".format(message.author.name, message.created_at.strftime('%d %b %Y'), message.created_at.strftime('%H:%M:%S'), message.content))
@@ -588,11 +588,11 @@ class Utility(commands.Cog):
                         f.write(message.content + "\n")
             else:
                 if details == "yes":
-                    async for message in ctx.message.channel.history(limit=int(limit), reverse=True):
+                    async for message in ctx.message.channel.history(limit=int(limit), oldest_first=True):
                         f.write("<{} at {} on {}> {}\n".format(message.author.name, message.created_at.strftime('%d %b %Y'), message.created_at.strftime('%H:%M:%S'), message.content))
 
                 else:
-                    async for message in ctx.message.channel.history(limit=int(limit), reverse=True):
+                    async for message in ctx.message.channel.history(limit=int(limit), oldest_first=True):
                         f.write(message.content + "\n")
         await ctx.send(self.bot.bot_prefix + "Finished downloading!")
 

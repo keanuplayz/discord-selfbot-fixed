@@ -141,3 +141,5 @@ settings/*
 .vscode/
 cogs/utils/temp.txt
 media/
+pythonenv*/
+message_dump/

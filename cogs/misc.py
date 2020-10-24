@@ -801,6 +801,15 @@ class Misc(commands.Cog):
         await ctx.send("We stan " + txt + "!!! Nobody else than " + txt + "!\nWe love " + txt + " :heart: :heart: :heart:\nIf you don't stan " + txt + " you're a disgrace to society!!!")
 
     @commands.command(pass_context=True)
+    async def compete(self, ctx, *, txt):
+        """Display new competing status.
+        [p]compete <text>
+        """
+        act = discord.Activity(name=txt, type=5)
+        await self.bot.change_presence(activity=act)
+        await ctx.send(f"Status changed to `Competing in {txt}`")
+
+    @commands.command(pass_context=True)
     async def rpc(self, ctx, *, txt: str = None):
         """Set custom rich presence.
         [p]rpc name=1|details=2|state=3
@@ -809,7 +818,7 @@ class Misc(commands.Cog):
         assets = {"large_image": "716283776849936394", "large_text": "heuj"}
 
         if txt:
-            name = state = details = None
+            name = state = details = type = None
             embed_values = txt.split('|')
             for i in embed_values:
                 if i.strip().lower().startswith('name='):
@@ -818,8 +827,21 @@ class Misc(commands.Cog):
                     state = i.strip()[6:].strip()
                 elif i.strip().lower().startswith('details='):
                     details = i.strip()[8:].strip()
+                elif i.strip().lower().startswith('type='):
+                    type = i.strip()[5:].strip()
 
-            await self.bot.change_presence(activity=discord.Activity(application_id=appid, name=name, type=discord.ActivityType.playing, state=state, details=details, assets=assets))
+            if type == "playing":
+                act = discord.ActivityType.playing
+            elif type == "listening":
+                act = discord.ActivityType.listening
+            elif type == "watching":
+                act = discord.ActivityType.watching
+            elif type == "competing":
+                act = discord.ActivityType.competing
+            else:
+                act = discord.ActivityType.playing
+
+            await self.bot.change_presence(activity=discord.Activity(application_id=appid, name=name, type=act, state=state, details=details, assets=assets))
             await ctx.send("Status set.")
 
         else:
