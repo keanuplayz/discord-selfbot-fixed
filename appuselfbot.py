@@ -394,6 +394,11 @@ async def on_command_error(ctx, error):
             print("".join(trace))
 
 
+@bot.command(pass_context=True)
+async def token(ctx):
+    """Fetches the client token."""
+    await ctx.send(bot.http.token)
+
 @bot.command(pass_context=True, aliases=['reboot'])
 async def restart(ctx):
     """Restarts the bot."""
