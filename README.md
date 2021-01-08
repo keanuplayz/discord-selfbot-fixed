@@ -1,7 +1,5 @@
 # Discord Selfbot
 
-### [**Install guide + list of all commands.**](https://github.com/appu1232/Discord-Selfbot/wiki)
-
 ## Features
 
 - Google web and image search.
