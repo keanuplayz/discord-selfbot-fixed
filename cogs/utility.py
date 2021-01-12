@@ -110,7 +110,7 @@ class Utility(commands.Cog):
         """Write text in code format."""
         await ctx.message.delete()
         await ctx.send("```" + msg.replace("`", "") + "```")
-    
+
     @commands.command(pass_context=True)
     async def toggletime(self, ctx):
         """Toggle between 24 hours time and 12 hours time"""
@@ -223,22 +223,22 @@ class Utility(commands.Cog):
             else:
                 txt = int(txt)
                 limit = 200
-                if txt > 200: 
+                if txt > 200:
                     txt = 200
             if channel:
                 channel = find_channel(ctx.message.guild.channels, channel)
-                if not channel: 
+                if not channel:
                     channel = find_channel(self.bot.get_all_channels(), channel)
-            else: 
+            else:
                 channel = ctx.message.channel
             async for sent_message in channel.history():
                 if sent_message.author == ctx.message.author:
                     try:
                         await sent_message.delete()
                         deleted += 1
-                    except: 
+                    except:
                         pass
-                    if deleted == txt: 
+                    if deleted == txt:
                         break
         else: # If no number specified, delete last message immediately
             msg = await ctx.message.channel.history(before=ctx.message).get(author=ctx.message.author)
@@ -306,7 +306,7 @@ class Utility(commands.Cog):
             "Referer": "http://thewebsite.com",
             "Connection": "keep-alive"
         }
-        loop = bot.loop
+        loop = self.bot.loop
         try:
             req = Request(sauce_nao + txt, headers=request_headers)
             webpage = await loop.run_in_executor(None, urlopen, req)
@@ -517,7 +517,7 @@ class Utility(commands.Cog):
         else:
             embed = discord.Embed(title="Number of people playing {}".format(game), description=msg)
             await ctx.send("", embed=embed)
-            
+
     @commands.command(pass_context=True, aliases=['anim'])
     async def animate(self, ctx, animation):
         """Play an animation from a text file. [p]help animate for more details.
@@ -764,7 +764,7 @@ class Utility(commands.Cog):
         print(uid_message)
         print(separator)
         await ctx.send(self.bot.bot_prefix + 'Console cleared successfully.')
-        
+
     @commands.command()
     async def read(self, ctx, id: int=None):
         """Marks a specified server as read. If an ID is not provided, all servers will be marked as read."""
@@ -790,7 +790,7 @@ class Utility(commands.Cog):
         except discord.Forbidden:
             await ctx.send('Can\'t do that!')
 
-            
+
 
 def setup(bot):
     bot.add_cog(Utility(bot))
