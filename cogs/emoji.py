@@ -1,4 +1,5 @@
 import discord
+import os
 import requests
 import io
 import re
@@ -15,7 +16,7 @@ class Emoji(commands.Cog):
     def find_emoji(self, msg):
         msg = re.sub("<a?:(.+):([0-9]+)>", "\\2", msg)
         color_modifiers = ["1f3fb", "1f3fc", "1f3fd", "1f44c", "1f3fe", "1f3ff"]  # These color modifiers aren't in Twemoji
-        
+
         name = None
 
         for guild in self.bot.guilds:
@@ -60,8 +61,9 @@ class Emoji(commands.Cog):
         Usage:
         1) [p]emoji <emoji> - View a large image of a given emoji. Use [p]emoji s for additional info.
         2) [p]emoji copy <emoji> - Copy a custom emoji on another server and add it to the current server if you have the permissions.
-        3) [p]emoji add <url> - Add a new emoji to the current server if you have the permissions.
+        3) [p]emoji add <name> <url> - Add a new emoji to the current server if you have the permissions.
         4) [p]emoji remove <emoji> - Remove an emoji from the current server if you have the permissions
+        5) [p]emoji export <guild> - Export all emojis from a server into `emotes/`
         """
         await ctx.message.delete()
         emojis = msg.split()
@@ -162,6 +164,21 @@ class Emoji(commands.Cog):
             await ctx.send(self.bot.bot_prefix + "Successfully removed the {} emoji!".format(name))
         else:
             await ctx.send(self.bot.bot_prefix + "Successfully removed {} emoji with the name {}.".format(emote_length, name))
+
+    @emoji.command(pass_context=True)
+    async def export(self, ctx, server):
+        server = ctx.bot.get_guild(int(server))
+        strippedname = server.name.replace(" ", "_")
+        if not os.path.exists(f"emotes/{strippedname}"):
+            os.makedirs(f"emotes/{strippedname}")
+        for emote in server.emojis:
+            image = emote.url
+            request = requests.get(image)
+            if emote.animated is True:
+                open(f"emotes/{strippedname}/{emote.name}.gif", "wb").write(request.content)
+            else:
+                open(f"emotes/{strippedname}/{emote.name}.png", "wb").write(request.content)
+        await ctx.send(f"saved emotes from {strippedname} to `emotes/{strippedname}`")
 
 
 def setup(bot):
