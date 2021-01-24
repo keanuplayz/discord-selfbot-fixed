@@ -178,7 +178,7 @@ class Emoji(commands.Cog):
                 open(f"emotes/{strippedname}/{emote.name}.gif", "wb").write(request.content)
             else:
                 open(f"emotes/{strippedname}/{emote.name}.png", "wb").write(request.content)
-        await ctx.send(f"saved emotes from {strippedname} to `emotes/{strippedname}`")
+        await ctx.send(f"saved emotes from '{server.name}' to `emotes/{strippedname}`")
 
 
 def setup(bot):
