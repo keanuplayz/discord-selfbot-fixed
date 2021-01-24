@@ -144,3 +144,4 @@ media/
 pythonenv*/
 message_dump/
 emotes/
+*.zip

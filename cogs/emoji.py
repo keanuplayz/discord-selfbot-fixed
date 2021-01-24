@@ -3,6 +3,8 @@ import os
 import requests
 import io
 import re
+import shutil
+import time
 from discord.ext import commands
 
 '''Tools relating to custom emoji manipulation and viewing.'''
@@ -166,7 +168,7 @@ class Emoji(commands.Cog):
             await ctx.send(self.bot.bot_prefix + "Successfully removed {} emoji with the name {}.".format(emote_length, name))
 
     @emoji.command(pass_context=True)
-    async def export(self, ctx, server):
+    async def export(self, ctx, server, zipfile=None):
         server = ctx.bot.get_guild(int(server))
         strippedname = server.name.replace(" ", "_")
         if not os.path.exists(f"emotes/{strippedname}"):
@@ -179,6 +181,13 @@ class Emoji(commands.Cog):
             else:
                 open(f"emotes/{strippedname}/{emote.name}.png", "wb").write(request.content)
         await ctx.send(f"saved emotes from '{server.name}' to `emotes/{strippedname}`")
+
+        if zipfile:
+            shutil.make_archive("emotes", "zip", "emotes/")
+            file = discord.File("emotes.zip")
+            await ctx.send(None, file=file)
+            time.sleep(1)
+            os.remove("emotes.zip")
 
 
 def setup(bot):
