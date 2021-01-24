@@ -140,7 +140,7 @@ class Misc(commands.Cog):
         - ptext=<words>
 
         NOTE: After the command is sent, the bot will delete your message and replace it with the embed. Make sure you have it saved or else you'll have to type it all again if the embed isn't how you want it.
-        
+
         PS: Hyperlink text like so:
         \[text](https://www.whateverlink.com)
 
@@ -680,11 +680,11 @@ class Misc(commands.Cog):
         [p]quote <message_id> | channel=<channel_name> - quotes the message with the given message ID in a specified channel
         [p]quote <user_mention_name_or_id> | channel=<channel_name> - quotes the last message sent by a specific user in a specified channel
         """
-        
+
         await ctx.message.delete()
         result = None
         channels = [ctx.channel] + [x for x in ctx.guild.channels if x != ctx.channel and type(x) == discord.channel.TextChannel]
-        
+
         args = msg.split(" | ")
         msg = args[0]
         if len(args) > 1:
@@ -702,7 +702,7 @@ class Misc(commands.Cog):
                             break
             if not channels:
                 return await ctx.send(self.bot.bot_prefix + "The specified channel could not be found.")
-            
+
         user = get_user(ctx.message, msg)
 
         async def get_quote(msg, channels, user):
@@ -723,13 +723,13 @@ class Misc(commands.Cog):
                 except discord.Forbidden:
                     continue
             return None
-            
+
         if msg:
             result = await get_quote(msg, channels, user)
         else:
             async for message in ctx.channel.history(limit=1):
                 result = message
-        
+
         if result:
             if type(result.author) == discord.User:
                 sender = result.author.name
@@ -748,10 +748,10 @@ class Misc(commands.Cog):
                 footer = ""
                 if result.channel != ctx.channel:
                     footer += "#" + result.channel.name
-                    
+
                 if result.guild != ctx.guild:
                     footer += " | " + result.guild.name
-                    
+
                 if footer:
                     em.set_footer(text=footer)
                 await ctx.send(embed=em)
@@ -847,7 +847,7 @@ class Misc(commands.Cog):
         else:
             await self.bot.change_presence(activity=None)
             await ctx.send(self.bot.bot_prefix + 'Set playing status off')
-    
+
     @commands.command(pass_context=True)
     async def sh(self, ctx, *, cmd):
         await ctx.send(f"```{cmdline(cmd).decode('utf-8')}```")

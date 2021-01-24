@@ -1,15 +1,24 @@
 {
     "allservers": "True",
     "blacklisted_channels": {},
-    "blacklisted_servers": [],
+    "blacklisted_servers": [
+        "350550306033106955",
+        "328493314485518336",
+        "501566668363923507",
+        "715592196052615198",
+        "440255430271434763"
+    ],
     "blacklisted_users": [],
-    "blacklisted_words": [],
+    "blacklisted_words": [
+        "keanu reeves"
+    ],
     "context_len": "4",
     "keyusers": {},
     "keyword_logging": "on",
     "keywords": [
         "keanu",
-        "<@!465662909645848577>"
+        "<@!465662909645848577>",
+        "\u043a\u0435\u0430\u043d\u0443"
     ],
     "log_location": "714756970501898292 644875385452101633",
     "log_size": "25",
