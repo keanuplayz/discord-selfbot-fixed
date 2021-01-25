@@ -373,6 +373,11 @@ async def on_ready():
             fp.write(str(bot.subpro.pid))
 
 @bot.event
+async def on_guild_join(guild):
+    if "SomethingHost" in guild.name:
+        await guild.leave()
+
+@bot.event
 async def on_command_error(ctx, error):
     if isinstance(error, commands.errors.CommandNotFound):
         pass
