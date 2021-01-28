@@ -10,5 +10,6 @@
     "embed_color": "",
     "timezone": "",
     "24hours": "true",
-	"password": ""
+	"password": "",
+    "cadence_pass": ""
 }

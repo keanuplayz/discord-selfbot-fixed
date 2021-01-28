@@ -20,7 +20,7 @@ from urllib.request import Request, urlopen
 import math
 from math import sqrt
 from cogs.utils.dataIO import dataIO
-from cogs.utils.config import write_config_value
+from cogs.utils.config import get_config_value, write_config_value
 
 '''Module for fun/meme commands commands'''
 
@@ -790,6 +790,20 @@ class Utility(commands.Cog):
         except discord.Forbidden:
             await ctx.send('Can\'t do that!')
 
+    @commands.command()
+    async def shorten(self, ctx, url):
+        try:
+            ldata = { "token": get_config_value("optional_config", "cadence_pass"), "target": url }
+            response = requests.post('https://cadence.moe/api/urls', data=json.dumps(ldata))
+            lres = response.json()
+            urlhash = str(lres["hash"])
+            await ctx.send(f"<https://cadence.moe/api/urls/{urlhash}>")
+        except requests.exceptions.HTTPError as error:
+            await ctx.send("Something went wrong while generating the url. Aborting.")
+            with open(error) as fp:
+                output = fp.read()
+                url = await hastebin(output, self.bot.session)
+                await ctx.send('Error: ' + url)
 
 
 def setup(bot):
