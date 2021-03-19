@@ -805,6 +805,20 @@ class Utility(commands.Cog):
                 url = await hastebin(output, self.bot.session)
                 await ctx.send('Error: ' + url)
 
+    @commands.command()
+    async def upload(self, ctx, type, item):
+        now = datetime.datetime.now()
+        if type == "url":
+            r = requests.get(item, allow_redirects=True)
+            open(f'/var/www/html/uploads/{now.strftime("%H%M%S")} - {item.split("/")[-1]}', 'wb').write(r.content)
+        elif type == "attachment":
+            urlA = ctx.message.attachments[0].url
+            r = requests.get(urlA, allow_redirects=True)
+            open(f'/var/www/html/uploads/{now.strftime("%H%M%S")} - {urlA.split("/")[-1]}', 'wb').write(r.content)
+        await ctx.message.delete()
+        await ctx.channel.send(f":robot: File uploaded\n<https://keanumedia.duckdns.org/uploads/{now.strftime('%H%M%S')}%20-%20{item.split('/')[-1]}>")
+
+
 
 def setup(bot):
     bot.add_cog(Utility(bot))
