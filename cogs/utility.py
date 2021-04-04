@@ -18,6 +18,7 @@ from bs4 import BeautifulSoup
 from urllib import parse
 from urllib.request import Request, urlopen
 import math
+import subprocess
 from math import sqrt
 from cogs.utils.dataIO import dataIO
 from cogs.utils.config import get_config_value, write_config_value
@@ -817,6 +818,18 @@ class Utility(commands.Cog):
             open(f'/var/www/html/uploads/{now.strftime("%H%M%S")} - {urlA.split("/")[-1]}', 'wb').write(r.content)
         await ctx.message.delete()
         await ctx.channel.send(f":robot: File uploaded\n<https://keanumedia.duckdns.org/uploads/{now.strftime('%H%M%S')}%20-%20{item.split('/')[-1]}>")
+
+    @commands.command()
+    async def typescript(self, ctx, *, code):
+        # await ctx.send("test")
+        res = subprocess.run(
+            args=f"echo '{code}' | ts-node",
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            shell=True)
+        text = res.stdout.decode("utf-8")
+        await ctx.send(f"```\n{text}```")
+        
 
 
 
