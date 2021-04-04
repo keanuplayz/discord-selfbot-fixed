@@ -43,7 +43,7 @@ _mention_pattern = re.compile('|'.join(_mentions_transforms.keys()))
 
 
 orig_help = None
-wiki_link = '\nAlternatively, you may want to check out [the wiki](https://github.com/appu1232/Discord-Selfbot/wiki) which also has the full list of in-built commands.'
+wiki_link = '\nAlternatively, you may want to check out [the wiki](https://github.com/keanuplayz/discord-selfbot-fixed/wiki) which also has the full list of in-built commands.'
 
 
 class Help(formatter.HelpFormatter, commands.Cog):

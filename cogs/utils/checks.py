@@ -112,10 +112,10 @@ def update_bot(message):
             title = g.execute(["git", "log", "--format=%ar", "-n", "1", commits[i]])
             field = g.execute(["git", "log", "--pretty=oneline", "--abbrev-commit", "--shortstat", commits[i], "^{0}".format(commits[i + 1])])
             field = field[8:].strip()
-            link = 'https://github.com/appu1232/Discord-Selfbot/commit/%s' % commits[i]
+            link = 'https://github.com/keanuplayz/discord-selfbot-fixed/commit/%s' % commits[i]
             em.add_field(name=title, value='{0}\n[Code changes]({1})'.format(field, link), inline=False)
         em.set_thumbnail(url='https://image.flaticon.com/icons/png/512/25/25231.png')
-        em.set_footer(text='Full project: https://github.com/appu1232/Discord-Selfbot')
+        em.set_footer(text='Full project: https://github.com/keanuplayz/discord-selfbot-fixed')
         return em
 
 def cmd_prefix_len():

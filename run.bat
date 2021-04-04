@@ -9,7 +9,7 @@ if not exist .git\ (
     echo This seems to be your first run. The setup will now proceed to download all required files. They will be downloaded to the same location as where this run.bat file is.
     pause
     git init . >nul || goto :git
-    git remote add origin https://github.com/appu1232/Discord-Selfbot.git >nul 2>&1
+    git remote add origin https://github.com/keanuplayz/discord-selfbot-fixed.git >nul 2>&1
     git fetch --all
 	git reset --hard origin/master
 )
